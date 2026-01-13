@@ -1,5 +1,12 @@
 # React + TypeScript + Vite
 
+##概要
+React + Taileind 練習用リポジトリです。
+レイアウトやUIの基礎を学んでいきます。
+
+##進め方
+小さな変更ごとに commit　することで進めていきます。
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
