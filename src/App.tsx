@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="grid grid-cols-2 grid-rows-2 gap-3 p-2 min-h-dvh">
       <div
-        className={`border flex items-center justify-center col-span-2 ${colorChange}`}
+        className={`border flex items-center justify-center col-span-2 text-5xl  ${colorChange}`}
         onClick={() => setTitle("クリックされました")}
       >
         {title}
