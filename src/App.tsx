@@ -6,10 +6,10 @@ import "./App.css";
 function App() {
   return (
     <div className="grid grid-cols-2 grid-rows-2 gap-3 p-4 min-h-dvh">
-      <div className="border">こんにちは</div>
-      <div className="border">こんにちは</div>
-      <div className="border">こんにちは</div>
-      <div className="border">こんにちは</div>
+      <div className="border flex items-center justify-center">こんにちは</div>
+      <div className="border flex items-center justify-center">こんにちは</div>
+      <div className="border flex items-center justify-center">こんにちは</div>
+      <div className="border flex items-center justify-center">こんにちは</div>
     </div>
   );
 }
