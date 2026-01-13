@@ -4,9 +4,14 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div>こんにちは！！！！！！！！！！！！！！！！！</div>;
+  return (
+    <div className="grid grid-cols-2 grid-rows-2 gap-3 p-4 min-h-dvh">
+      <div className="border">こんにちは</div>
+      <div className="border">こんにちは</div>
+      <div className="border">こんにちは</div>
+      <div className="border">こんにちは</div>
+    </div>
+  );
 }
 
 export default App;
