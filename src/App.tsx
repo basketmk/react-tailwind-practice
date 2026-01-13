@@ -7,6 +7,8 @@ function App() {
   const baseBox = "border flex items-center justify-center cursor-pointer ";
 
   const hoverRed = "hover:bg-red-200 transition-all duration-300";
+  const hoverCyan = "hover:bg-cyan-200 transition-all duration-300";
+  const hoverLime = "hover:bg-lime-200 transition-all duration-300";
 
   const [title, setTitle] = useState("TailWind 練習用", 0);
   return (
@@ -17,8 +19,8 @@ function App() {
       >
         {title}
       </div>
-      <div className={`${baseBox} ${hoverRed}`}>こんにちは</div>
-      <div className={`${baseBox} ${hoverRed}`}>こんにちは</div>
+      <div className={`${baseBox} ${hoverCyan}`}>こんにちは</div>
+      <div className={`${baseBox} ${hoverLime}`}>こんにちは</div>
     </div>
   );
 }
